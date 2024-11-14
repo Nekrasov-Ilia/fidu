@@ -1,15 +1,117 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <title>Luxury Residences</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for header */
+        hero-section {
+            beckground-image: url('Nekrasov-Ilia/fidu/Yas Golf/img/Bay-Grove-032401.jpg')        }
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 80px;
+            transform: translateY(-50%);
+            max-width: 600px;
+        }
+        .hero-title {
+            font-family: 'Kaisei Opti', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        .hero-subtitle {
+            font-family: 'Kaisei Opti', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .register-btn {
+            border: 1.5px solid #FFFFFF;
+            border-radius: 9px;
+            color: white;
+            margin-top: 30px;
+        }
+        .enquire-btn {
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            padding: 8px 16px;
+        }
+        .contact-form {
+            position: absolute;
+            top: 50%;
+            right: 80px;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.6);
+            padding: 20px;
+            border-radius: 25px;
+            max-width: 400px;
+        }
+        .form-title {
+            font-family: 'Kaisei Opti', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #163E5A;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div class="container head-container">
-        <!-- Content here -->
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Header Navbar -->
+<header class="bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark container pt-3">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" width="100"> <!-- Replace with your logo -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#payment-plan">Payment Plan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#locations">Locations</a></li>
+                <li class="nav-item"><a class="nav-link enquire-btn" href="#enquire">Enquire Now</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container hero-content">
+        <h1 class="hero-title">Beachfront Luxury Redefined</h1>
+        <p class="hero-subtitle">Imagine a life, surrounded by the serenity of the sea. Experience it, only at Bay Grove Residences.</p>
+        <a href="#register" class="btn btn-outline-light register-btn">Register Now</a>
+    </div>
+    <!-- Contact Form Overlay -->
+    <div class="contact-form">
+        <h2 class="form-title">Leave your contact details below to register your interest</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <button type="submit" class="btn btn-outline-dark w-100">Register Now</button>
+        </form>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
