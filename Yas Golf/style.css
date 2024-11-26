@@ -13,7 +13,7 @@
     font-family: 'Kaisei Opti';
 }
 .btn {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
 }
 .hero-content {
@@ -46,9 +46,13 @@
 }
    /* Custom styles for header */
    .hero-section {
-    background-image: url('../Yas%20Golf/img/Header-0213501.jpg');
+    background-image: url('../img/Header-0213501.jpg');
     background-color: aquamarine;    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
+
 }
 .enquire-btn {
     border: 1px solid #FFFFFF;
@@ -71,4 +75,23 @@
     font-weight: 500;
     color: #163E5A;
     text-align: center;
+}
+.menu-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2; /* Matches 119.98% */
+    letter-spacing: -0.01em;
+    color: #FFFFFF; /* Default text color */
+    background-color: transparent; /* No background by default */
+    padding: 8px 16px; /* Add some padding */
+    border-radius: 15px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.menu-link:hover {
+    background-color: #00AEEF; /* Light blue background */
+    color: #FFFFFF; /* Text stays white */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
 }
