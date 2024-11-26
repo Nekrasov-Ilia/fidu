@@ -5,6 +5,12 @@
 }
 .h1 {
     font-family: 'Kaisei Opti';
+}
+.hero-title {
+    font-family: 'Kaisei Opti', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
     color: aliceblue;
 }
 .hero-subtitle {
