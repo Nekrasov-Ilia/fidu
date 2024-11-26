@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
 
 .head-container {
-    background-image: url(../img/yas-golf-collection-15-1 1.jpg);
+    background-image: url(../Yas%20Golf/img/yas-golf-collection-15-1 1.jpg);
 }
 .container {
     max-width: 1280px; /* Set the maximum width to 1280px */
@@ -46,7 +46,7 @@
 }
    /* Custom styles for header */
    .hero-section {
-    background-image: url('../img/Header-0213501.jpg');
+    background-image: url('../Yas%20Golf/img/Header-0213501.jpg');
     background-color: aquamarine;    
     background-position: center center;
     background-repeat: no-repeat;
