@@ -3,8 +3,25 @@
 .head-container {
     background-image: url(../img/yas-golf-collection-15-1 1.jpg);
 }
+.container {
+    max-width: 1280px; /* Set the maximum width to 1280px */
+    margin: 0 auto; /* Center the block horizontally */
+    width: 100%; /* Ensure the block takes up full width until it reaches max-width */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
 .h1 {
     font-family: 'Kaisei Opti';
+}
+.btn {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.3rem;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    max-width: 600px;
 }
 .hero-title {
     font-family: 'Kaisei Opti', sans-serif;
@@ -14,7 +31,17 @@
     color: aliceblue;
 }
 .hero-subtitle {
-    font-family: 'Kaisei Opti';
-    font-size: 22px;
+    font-family: 'Kaisei Opti', sans-serif;
+    font-size: 1.25rem;
     font-weight: 400;
+    margin-top: 20px;
+    color: aliceblue;
 }
+.register-btn {
+    width: 207px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 9px;
+    color: white;
+    margin-top: 30px;
+}
+
