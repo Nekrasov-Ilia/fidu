@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
 
 .head-container {
-    background-image: url(../Yas%20Golf/img/yas-golf-collection-15-1 1.jpg);
+    background-image: url('../img/yas-golf-collection-15-1 1.jpg');
 }
 .container {
     max-width: 1280px; /* Set the maximum width to 1280px */
@@ -15,6 +15,10 @@
 .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
+}
+.btm-primary {
+    color: #002B63;
+    background-color: #002B63;
 }
 .hero-content {
     position: absolute;
@@ -53,7 +57,8 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 40px;
 }
 .enquire-btn {
     border: 1px solid #FFFFFF;
@@ -95,4 +100,137 @@
     color: #FFFFFF; /* Text stays white */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for hover */
     transform: translateY(-2px); /* Slight lift on hover */
+}
+.custom-btn {
+    align-items: center; /* Vertically center text */
+    display: flex; 
+    justify-content: center;
+    width: 203px; /* Set the button's width */
+    height: 47px; /* Set the button's height */
+    background-color: transparent;
+    color: white; /* Button text color */
+    text-align: center; /* Center text */
+    line-height: 47px; /* Vertically align text inside the button */
+    border: solid 1px; /* Remove any borders */
+    border-radius: 8px; /* Optional rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+.custom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* White transparency on hover */
+    color: white; /* Keep the text white */
+    border-color: #FFFFFF;
+}
+.custom-btn:active {
+    background-color: #ef00a7; /* Change background color when clicked */
+    color: white; /* Keep text white */
+}
+.starting_price {
+    height: auto; 
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 20px 10px 0px 40px;
+    background: rgba(254, 249, 249, 0.42); /* Semi-transparent background */
+    backdrop-filter: blur(2.95px); /* Adds a blur effect behind the element */
+    -webkit-backdrop-filter: blur(2.95px); /* Safari support for backdrop-filter */
+    border-radius: 14px; /* Rounded corners */
+    min-width: 350px;
+}
+.starting_price p {
+    font-family: 'Kaisei Opti', sans-serif;
+    font-size: 24px;
+    color:#FFFFFF
+}
+.prices {
+    display: flex; /* Arrange prices in a row */
+    justify-content: space-between; /* Distribute prices evenly */
+    gap: 20px; /* Space between prices */
+    width: 100%; /* Ensure prices span the full width */
+    max-width: 500px; /* Optional: limit the total width of the row */
+    text-align: center;
+    white-space: nowrap;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.block-title {
+    color: #ffffff;
+    font-family: 'Kaisei Opti', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1,5;
+}
+.life-title {
+    font-family: 'Kaisei Opti', sans-serif;
+    color: #70AAB4;
+    font-size: 54px;
+}
+.block-btn {
+    color: #002B63;
+    border: #002B63 solid;
+    border-width: 1px;
+    
+}
+.block-btn {
+    color: #002B63;
+    border: #002B63 solid;
+    border-width: 1px;
+    
+}
+.block-btn:hover {
+    background-color: #00AEEF; /* Light blue background */
+    color: #FFFFFF; /* Text stays white */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.location {
+    background-image: url('../img/Bay-Grove-032402.jpg');
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;
+}
+.blocks-white-text {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.views {
+    min-height: 540px;
+    margin: 64px 0 64px 0;
+}
+.sea-views {
+    background-image: url('../img/Bay-Grove-032403.jpg');
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-size: cover;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    text-align: center; /* Center the button's text (optional) */
+    padding-bottom: 20px;
+}
+.interiors {
+    background-image: url('../img/Bay-Grove-032405.jpg');
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.43); /* Overlay effect */
 }
