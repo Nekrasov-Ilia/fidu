@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .head-container {
     background-image: url('../img/yas-golf-collection-15-1 1.jpg');
 }
@@ -164,6 +172,7 @@
     font-size: 36px;
     font-weight: 500;
     line-height: 1,5;
+    text-align: center;
 }
 .life-title {
     font-family: 'Kaisei Opti', sans-serif;
@@ -233,4 +242,76 @@
 }
 .bg-overlay {
     background-color: rgba(0, 0, 0, 0.43); /* Overlay effect */
+}
+.sub-title {
+    /* THE AMENITIES */
+font-family: 'Montserrat' sans-serif;;
+font-style: normal;
+font-weight: 600;
+font-size: 26.1853px;
+line-height: 119.98%;
+/* or 31px */
+letter-spacing: -0.01em;
+color: #70AAB4;
+}
+.waves {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032406.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+    color: white;
+}
+.waves_subheader {
+    font-family: 'Kaisei Opti', sans-serif;
+    font-size: 23px;
+}
+.row-img-01 {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032407.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+}
+.row-img-02 {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032408.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+}
+.row-img-03 {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032409.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+}
+.row-img-04 {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032409.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+}
+.row-img-05 {
+    height: 293px;
+    background-image: url('../img/Bay-Grove-032409.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+}
+.footer {
+    background-image: url('../img/Bay-Grove-032406.jpg');
+    min-height: 714px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;   
+    margin-top: 100px;
+}
+.footer_img {
+    width: 248px;
 }
